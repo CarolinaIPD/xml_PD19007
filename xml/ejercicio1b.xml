@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/css/ejercicio1b.css" ?>
+<!--ejercicio1b.xml  PD19007 -->
+<fichero>
+  <titulo>EJERCICIO 1b</titulo>
+  <contenido>
+    <ficha id="1" fechaingreso="1/11/2012">
+      <nombre>Antonio</nombre>
+      <apellido>Barbero</apellido>
+      <direccion>Calle de Los Andes, 45</direccion>
+      <telefono>4589-1245</telefono>
+      <email>ba12897@ues.edu.sv</email>
+      <url>http://xml.ba12897.tpi</url>
+      <dui>19764652-1</dui>
+      <isss>568464652</isss>
+      <afp>454541658974</afp>
+    </ficha>
+    
+      <ficha id="2" fechaingreso="1/01/2019">
+      <nombre>Carolina</nombre>
+      <apellido>Pineda</apellido>
+      <direccion>Calle barrios</direccion>
+      <telefono>4578-2595</telefono>
+      <email>pd19007@ues.edu.sv</email>
+      <url>http://xml.pd19007.tpi</url>
+      <dui>18794652-9</dui>
+      <isss>589364652</isss>
+      <afp>454478928915</afp>
+    </ficha>
+    
+       <ficha id="3" fechaingreso="4/01/2020">
+      <nombre>Juan</nombre>
+      <apellido>Wiz</apellido>
+      <direccion>Barrio Candelaria</direccion>
+      <telefono>2568-2895</telefono>
+      <email>pw20059@ues.edu.sv</email>
+      <url>http://xml.pw20059.tpi</url>
+      <dui>15464652-8</dui>
+      <isss>126464652</isss>
+      <afp>454541658915</afp>
+    </ficha>
+  </contenido>
+</fichero>

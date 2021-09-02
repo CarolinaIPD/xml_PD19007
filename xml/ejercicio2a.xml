@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/css/ejercicio2a.css" ?>
+<!-- ejercicio2a.xml  PD19007 -->
+<cuerpo>
+  <titulo>Ejercicio 2a</titulo>
+  <contenido>
+      <pais pais="El Salvador">
+        <departamento id="1" nombre="San Salvador">
+          <cabecera>San Salvador</cabecera>
+          <habitantes>1,700,000</habitantes>
+          <altura>545 MSNM</altura>
+          <moneda>Dólar Estadounidense</moneda>
+          <codigoTel>503</codigoTel>
+          <idiomas idi="Idiomas">
+            <oficial>Español</oficial>
+            <autoctono>Nahuatl</autoctono>  
+            <segundoIdioma>Inglés</segundoIdioma>
+          </idiomas>
+          <areaTerritorial>886,2 km2</areaTerritorial>
+        </departamento>
+        
+         <departamento id="2" nombre="Ahuachapán">
+          <cabecera>Ahuachapán</cabecera>
+          <habitantes>333406</habitantes>
+          <altura>1000 MSNM</altura>
+          <moneda>Dólar Estadounidense</moneda>
+          <codigoTel>503</codigoTel>
+          <idiomas idi="Idiomas">
+            <oficial>Español</oficial>
+            <autoctono>Nahuatl</autoctono>  
+            <segundoIdioma>Inglés</segundoIdioma>
+          </idiomas>
+          <areaTerritorial>1239,6 km2</areaTerritorial>
+        </departamento>
+    </pais>  
+  </contenido>
+</cuerpo>

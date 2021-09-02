@@ -1,0 +1,45 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"telefono": "4589-1245",
+				"email": "ba12897@ues.edu.sv",
+				"url": "http://xml.ba12897.tpi",
+				"dui": "19764652-1",
+				"isss": "568464652",
+				"afp": "454541658974",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Carolina",
+				"apellido": "Pineda",
+				"direccion": "Calle barrios",
+				"telefono": "4578-2595",
+				"email": "pd19007@ues.edu.sv",
+				"url": "http://xml.pd19007.tpi",
+				"dui": "18794652-9",
+				"isss": "589364652",
+				"afp": "454478928915",
+				"_id": "2",
+				"_fechaingreso": "1/01/2019"
+			},
+			{
+				"nombre": "Juan",
+				"apellido": "Wiz",
+				"direccion": "Barrio Candelaria",
+				"telefono": "2568-2895",
+				"email": "pw20059@ues.edu.sv",
+				"url": "http://xml.pw20059.tpi",
+				"dui": "15464652-8",
+				"isss": "126464652",
+				"afp": "454541658915",
+				"_id": "3",
+				"_fechaingreso": "4/01/2020"
+			}
+		]
+	}
+}

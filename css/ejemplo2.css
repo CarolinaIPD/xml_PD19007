@@ -1,0 +1,52 @@
+/* ejemplo2.css   PD19007 */
+cuerpo {
+    background-color: black;
+    padding: 10em;
+}
+titulo{
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+    font-size: 3cm;
+    color: wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+}
+contenido {
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    display:block;
+} 
+pais {
+    background-color: none;
+    display:block;
+    padding: 4em;
+
+} 
+departamento {
+    color:black;
+    display:block;
+    text-transform: uppercase;
+} 
+cabecera {
+    padding-left: 2em;
+    color:black;
+    display:block;
+    text-transform: uppercase;
+}
+habitantes {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+altura {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+
+departamento[id]::before{
+    content:"ID de departamento: "attr(id) ", Nombre del departamento: " attr(nombre);
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+};

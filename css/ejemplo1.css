@@ -1,0 +1,28 @@
+/* ejemplo1.css   PD19007 */
+fichero {
+    background-color:blue;
+}
+ficha {
+    background-color:red; 
+    display:block;
+} 
+nombre {
+    color:white; 
+    display:inline;
+} 
+apellido {
+    color:yellow; 
+    display:inline;
+}
+direccion {
+    color:yellow;
+    font-size:1cm; 
+    display:none;
+}
+
+
+ficha[id]::before{
+    content:attr(id)" - " attr(fechaingreso);
+    color:blue;
+    font-weight:bold;
+};
