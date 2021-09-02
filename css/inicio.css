@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    padding: 3em;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6em;
+    color: wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+}
+body section{
+    background-color: blanchedalmond;
+    border-radius: 30px;
+} 
+article{
+    padding: 2em;
+
+}
+article ul li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+article ul li ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+h2,h3{
+    padding-left: 3em;
+}
+p{
+    padding-left: 6em;
+}

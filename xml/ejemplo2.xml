@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="/css/ejemplo2.css" ?>
+<!-- ejemplo2.xml  PD19007 -->
+<cuerpo> 
+  <titulo>EJEMPLO 2</titulo>
+  <contenido>
+  <pais nombre="El Salvador">
+      <departamento id="1" nombre="San Salvador">
+        <cabecera>San Salvador</cabecera>
+        <habitantes>1,700,000</habitantes>
+        <altura>545 MSNM</altura>
+      </departamento>
+  </pais>
+  </contenido>
+</cuerpo>

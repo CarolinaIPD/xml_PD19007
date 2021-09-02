@@ -1,0 +1,61 @@
+{
+	"pais": {
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"altura": "545 MSNM",
+				"moneda": "Dólar Estadounidense",
+				"codigoTel": "503",
+				"idiomas": {
+					"oficial": "Español",
+					"autoctono": "Nahuatl",
+					"segundoIdioma": "Inglés"
+				},
+				"areaTerritorial": "886,2 km2",
+				"pib": "4,187.25",
+				"_id": "1",
+				"_nombre": "San Salvador"
+			},
+			{
+				"cabecera": "Ahuachapán",
+				"habitantes": "333406",
+				"altura": "1000 MSNM",
+				"moneda": "Dólar Estadounidense",
+				"codigoTel": "503",
+				"idiomas": {
+					"oficial": "Español",
+					"autoctono": "Nahuatl",
+					"segundoIdioma": "Inglés"
+				},
+				"areaTerritorial": "1239,6 km2",
+				"pib": {
+					"_pica": "PIB TOTAL",
+					"__text": "161,645"
+				},
+				"_id": "2",
+				"_nombre": "Ahuachapán"
+			},
+			{
+				"cabecera": "Sensuntepeque",
+				"habitantes": "164945",
+				"altura": "750 MSNM",
+				"moneda": "Dólar Estadounidense",
+				"codigoTel": "503",
+				"idiomas": {
+					"oficial": "Español",
+					"autoctono": "Nahuatl",
+					"segundoIdioma": "Inglés"
+				},
+				"areaTerritorial": "1103,5 km2",
+				"pib": {
+					"_PI.CA": "PIB TOTAL",
+					"__text": "438,960"
+				},
+				"_id": "3",
+				"_nombre": "Cabañas"
+			}
+		],
+		"_nombre": "El Salvador"
+	}
+}

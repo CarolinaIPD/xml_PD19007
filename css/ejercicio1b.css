@@ -1,0 +1,77 @@
+/* ejercicio1b.css   PD19007 */
+fichero {
+    background-color: black;
+    padding: 10em;
+}
+titulo{
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+    font-size: 3cm;
+    color: wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+}
+contenido {
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    display:block;
+} 
+ficha {
+    background-color: none;
+    display:block;
+    padding: 2em 0em 2em 2em;
+
+} 
+nombre {
+    padding-left: 2em;
+    color:black;
+    display:block;
+    text-transform: uppercase;
+} 
+apellido {
+    padding-left: 2em;
+    color:black;
+    display:block;
+    text-transform: uppercase;
+}
+direccion {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+telefono {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+email {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+url {
+    padding-left: 2em;
+    color:blue;
+    display:block;
+}
+dui {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+isss {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+afp {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+ficha[id]::before{
+     content:"ID de estudiante: "attr(id) ", Fecha de ingreso:" attr(fechaingreso);
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+};

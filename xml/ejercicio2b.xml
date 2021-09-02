@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/css/ejercicio2b.css" ?>
+<!-- ejercicio2b.xml  PD19007 -->
+<cuerpo>
+  <titulo>Ejercicio 2b</titulo>
+  <contenido>
+      
+<pais pais="El Salvador">
+    <departamento id="1" nombre="San Salvador">
+      <cabecera>San Salvador</cabecera>
+      <habitantes>1,700,000</habitantes>
+      <altura>545 MSNM</altura>
+      <moneda>Dólar Estadounidense</moneda>
+      <codigoTel>503</codigoTel>
+      <idiomas idi="Idiomas">
+        <oficial>Español</oficial>
+        <autoctono>Nahuatl</autoctono>  
+        <segundoIdioma>Inglés</segundoIdioma>
+      </idiomas>
+      <areaTerritorial>886,2 km2</areaTerritorial>
+      <pib>4,187.25</pib>
+    </departamento>
+    
+     <departamento id="2" nombre="Ahuachapán">
+      <cabecera>Ahuachapán</cabecera>
+      <habitantes>333406</habitantes>
+      <altura>1000 MSNM</altura>
+      <moneda>Dólar Estadounidense</moneda>
+      <codigoTel>503</codigoTel>
+      <idiomas idi="Idiomas">
+        <oficial>Español</oficial>
+        <autoctono>Nahuatl</autoctono>  
+        <segundoIdioma>Inglés</segundoIdioma>
+      </idiomas>
+      <areaTerritorial>1239,6 km2</areaTerritorial>
+      <pib pica="PIB TOTAL">161,645</pib>
+    </departamento>
+  
+       <departamento id="3" nombre="Cabañas">
+      <cabecera>Sensuntepeque</cabecera>
+      <habitantes>164945</habitantes>
+      <altura>750 MSNM</altura>
+      <moneda>Dólar Estadounidense</moneda>
+      <codigoTel>503</codigoTel>
+      <idiomas idi="Idiomas">
+        <oficial>Español</oficial>
+        <autoctono>Nahuatl</autoctono>  
+        <segundoIdioma>Inglés</segundoIdioma>
+      </idiomas>
+      <areaTerritorial>1103,5 km2</areaTerritorial>
+      <pib PI.CA="PIB TOTAL">438,960</pib>
+    </departamento>
+    
+</pais>
+  </contenido>
+</cuerpo>

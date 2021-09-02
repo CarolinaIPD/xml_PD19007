@@ -1,0 +1,97 @@
+/* ejercicio2a.css   PD19007 */
+cuerpo {
+    background-color: black;
+    padding: 10em;
+}
+titulo{
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+    font-size: 3cm;
+    color: wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+}
+contenido {
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    display:block;
+} 
+pais {
+    background-color: none;
+    display:block;
+    padding: 4em;
+
+} 
+
+departamento {
+    color:black;
+    display:block;
+    padding: 2em 0em 2em 2em;
+}
+
+cabecera {
+    padding-left: 2em;
+    color:black;
+    display:block;
+    text-transform: uppercase;
+}
+
+habitantes {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+altura {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+moneda {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+codigoTel {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+
+oficial {
+    padding-left: 3em;
+    color:black;
+    display:block;
+}
+autoctono {
+    padding-left: 3em;
+    color:black;
+    display:block;
+}
+segundoIdioma {
+    padding-left: 3em;
+    color:black;
+    display:block;
+}
+areaTerritorial {
+    padding-left: 2em;
+    color:black;
+    display:block;
+}
+
+pais[pais]::before{
+    content:"PAIS: "attr(pais);
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    text-transform: uppercase;
+}
+departamento[id]::before{
+    content:"ID de departamento: "attr(id) ", Nombre del departamento: " attr(nombre);
+    color:rgb(0, 0, 0);
+}
+idiomas[idi]::before{
+    content:attr(idi);
+    color:rgb(0, 0, 0);
+    font-weight:normal;
+    padding-left: 2em;
+};
